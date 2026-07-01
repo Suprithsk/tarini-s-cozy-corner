@@ -31,7 +31,7 @@ const Socials = () => {
         <p className="mt-3 text-muted-foreground">pick your fav, I'm everywhere ✿</p>
       </div>
 
-      <ul className="mx-auto mt-10 flex max-w-3xl flex-wrap justify-center gap-4 md:gap-5">
+      <ul className="mx-auto mt-10 grid max-w-3xl grid-cols-4 justify-items-center gap-4 sm:grid-cols-7 md:gap-5">
         {socials.map(({ name, href, icon: Icon, bg, fg }) => (
           <li key={name}>
             <a
